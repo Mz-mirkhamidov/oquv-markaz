@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ilm Yo'li — Zamonaviy o'quv markazi</title>
-<meta name="description" content="Ilm Yo'li — IELTS, ingliz tili, IT va rus tili kurslari. Daraja testi, bepul sinov darsi va natijaga yo'naltirilgan ta'lim.">
+<title>ILM MARKAZ — Bolalar uchun rivojlantiruvchi ta'lim markazi</title>
+<meta name="description" content="ILM MARKAZ — ingliz, rus, arab tili, matematika va mental arifmetika, maktabgacha tayyorlov va gimnastika. Fast Education hamkorligida. Bepul sinov darsi.">
 <meta name="theme-color" content="#101A33">
-<meta property="og:title" content="Ilm Yo'li — Zamonaviy o'quv markazi">
-<meta property="og:description" content="Natijaga yo'naltirilgan ta'lim markazi. 2 daqiqalik test darajangizni aniqlaydi, birinchi dars bepul.">
+<meta property="og:title" content="ILM MARKAZ — Bolalar uchun rivojlantiruvchi ta'lim markazi">
+<meta property="og:description" content="Bitta markazda 6 ta yo'nalish. Fast Education hamkorligida. Birinchi dars bepul.">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101A33'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-weight='800' font-size='24' fill='%23E7A23A' text-anchor='middle'%3EIY%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101A33'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-weight='800' font-size='24' fill='%23E7A23A' text-anchor='middle'%3EIM%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -114,56 +114,32 @@ section{padding-block:64px}
 .ctaband p{font:700 19px/1.3 var(--display);color:#fff;max-width:46ch;margin:0}
 .ctaband span{color:#AEB9D2;font:400 13.5px var(--body);display:block;margin-top:4px}
 
-/* mentors */
+/* subjects */
 .mentor-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
 .mentor-card{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
 .mentor-avatar{width:74px;height:74px;border-radius:50%;display:grid;place-items:center;font:800 21px var(--display);color:#fff;box-shadow:var(--shadow-sm)}
 .mentor-card b{font-size:14px}
 .mentor-card span{font-size:12.5px;color:var(--muted)}
 
-/* results */
+/* benefits */
 .resultgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .result-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:6px;position:relative;overflow:hidden}
 .result-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--saffron),var(--sage))}
-.result-sample{position:absolute;top:12px;right:12px;font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--paper);padding:3px 7px;border-radius:6px}
 .result-band{font:800 40px/1 var(--display);color:var(--navy);margin-top:6px}
 .result-name{font-weight:700;font-size:14.5px;margin-top:4px}
 .result-course{font-size:12.5px;color:var(--muted)}
-
-/* quiz */
-.quizband{background:var(--saffron-soft)}
-.quizcard{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:28px;box-shadow:var(--shadow-md);display:grid;grid-template-columns:230px 1fr;gap:32px}
-.qmeta{display:flex;flex-direction:column;gap:12px}
-.progress{height:8px;border-radius:999px;background:var(--line);overflow:hidden}
-.progress i{display:block;height:100%;width:0;background:var(--navy);border-radius:999px;transition:width .35s ease}
-.qhint{font-size:13.5px;color:var(--muted)}
-.qtext{font:700 22px/1.32 var(--display);margin-bottom:18px}
-.opts{display:grid;grid-template-columns:1fr 1fr;gap:11px}
-.opt{text-align:left;padding:15px 17px;border-radius:14px;border:1.5px solid var(--line);background:var(--paper);font:600 15px var(--body);cursor:pointer;color:var(--ink);transition:border-color .15s,background .15s}
-.opt:hover{border-color:var(--navy);background:#fff}
-.opt.correct{border-color:var(--sage);background:var(--sage-soft)}
-.opt.wrong{border-color:var(--err);background:var(--err-soft)}
-.result{display:flex;flex-direction:column;gap:14px}
-.result .lvl{font:800 46px/1 var(--display);color:var(--navy)}
-.result .row2{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
-.quiz-hidden{display:none}
 
 /* courses */
 .coursegrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .course{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:14px;box-shadow:var(--shadow-sm);transition:transform .18s ease,box-shadow .18s ease}
 .course:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
-.course.featured{grid-column:span 2;background:linear-gradient(165deg,var(--navy),var(--navy2));color:#fff;border-color:transparent}
 .course .tag{align-self:flex-start;font-size:12px;font-weight:800;padding:5px 11px;border-radius:999px;background:var(--sage-soft);color:var(--sage)}
-.course.featured .tag{background:rgba(231,162,58,.18);color:var(--saffron)}
 .course h3{font-size:22px}
 .feat-list{margin:0;padding:0;list-style:none;font-size:14.5px;display:flex;flex-direction:column;gap:8px;flex:1}
 .feat-list li{display:flex;gap:9px;align-items:flex-start;color:var(--muted)}
-.course.featured .feat-list li{color:#C9D1E3}
 .feat-list svg{flex:none;margin-top:2px;color:var(--sage)}
-.course.featured .feat-list svg{color:var(--saffron)}
 .price{font:800 24px/1 var(--display)}
 .price small{font:600 12.5px var(--body);color:var(--muted)}
-.course.featured .price small{color:#AEB9D2}
 
 /* steps */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
@@ -242,9 +218,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   .hero-inner{display:flex;flex-direction:column;gap:30px}
   .hero-portrait{display:none}
   .bg-word{opacity:.04}
-  .quizcard{grid-template-columns:1fr;padding:22px}
   .coursegrid{grid-template-columns:1fr 1fr}
-  .course.featured{grid-column:span 2}
   .steps{grid-template-columns:1fr}
   .signup{grid-template-columns:1fr;padding:28px}
   .tipband{grid-template-columns:1fr;text-align:center;padding:28px}
@@ -258,8 +232,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   section{padding-block:40px}
   .ribbon{font-size:12px}
   .ribbon .wrap span:last-child{display:none}
-  .coursegrid,.opts{grid-template-columns:1fr}
-  .course.featured{grid-column:span 1}
+  .coursegrid{grid-template-columns:1fr}
   .facts{gap:8px}
   .fact{min-width:0;flex:1 1 auto;padding:12px 14px}
   .fact b{font-size:18px}
@@ -270,7 +243,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   .mentor-strip{grid-template-columns:repeat(2,1fr)}
   .resultgrid{grid-template-columns:1fr}
   .brand-mega{font-size:clamp(36px,15vw,56px)}
-  .qtext{font-size:19px}
   .tipnum{font-size:clamp(60px,22vw,100px)}
   .chat-fab span:not(.dot){display:none}
   .chat-fab{padding:15px;border-radius:50%}
@@ -290,13 +262,13 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 
 <div class="ribbon"><div class="wrap">
   <span><b>Qabul ochiq</b> — Sentabr guruhlari shakllanmoqda</span>
-  <span>Buyurtma: <a href="tel:+998771771319">+998 77 177 13 19</a></span>
+  <span>Buyurtma: <a href="tel:+998774493636">+998 77 449 36 36</a></span>
 </div></div>
 
 <header class="site"><div class="wrap">
-  <a class="logo" href="#"><span class="mark">IY</span>Ilm Yo'li</a>
+  <a class="logo" href="#"><span class="mark">IM</span>ILM MARKAZ</a>
   <nav class="navlinks" aria-label="Asosiy">
-    <a href="#test">Daraja testi</a><a href="#kurslar">Kurslar</a><a href="#ustozlar">Ustozlar</a><a href="#jadval">Jadval</a><a href="#savollar">Savollar</a>
+    <a href="#kurslar">Kurslar</a><a href="#yonalishlar">Yo'nalishlar</a><a href="#jadval">Jadval</a><a href="#savollar">Savollar</a>
   </nav>
   <div class="header-actions">
     <a class="btn btn-primary" href="#yozilish">Bepul sinov darsi</a>
@@ -306,7 +278,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   </div>
 </div>
 <nav class="mobile-nav" id="mobileNav" aria-label="Mobil menyu">
-  <a href="#test">Daraja testi</a><a href="#kurslar">Kurslar</a><a href="#ustozlar">Ustozlar</a><a href="#jadval">Jadval</a><a href="#savollar">Savollar</a>
+  <a href="#kurslar">Kurslar</a><a href="#yonalishlar">Yo'nalishlar</a><a href="#jadval">Jadval</a><a href="#savollar">Savollar</a>
 </nav>
 </header>
 
@@ -314,31 +286,31 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 <section class="hero"><div class="wrap">
   <div class="hero-top">
     <div class="bg-word" aria-hidden="true">
-      <span>ILM YO'LI · ILM YO'LI · ILM YO'LI ·</span>
-      <span>ILM YO'LI · ILM YO'LI · ILM YO'LI ·</span>
-      <span>ILM YO'LI · ILM YO'LI · ILM YO'LI ·</span>
+      <span>ILM MARKAZ · ILM MARKAZ ·</span>
+      <span>ILM MARKAZ · ILM MARKAZ ·</span>
+      <span>ILM MARKAZ · ILM MARKAZ ·</span>
     </div>
-    <span class="instructor-name">Bosh ustoz — Sardor Aliyev</span>
-    <div class="brand-mega">ILM<br>YO'LI</div>
+    <span class="instructor-name">Fast Education hamkorligida</span>
+    <div class="brand-mega">ILM<br>MARKAZ</div>
   </div>
   <div class="hero-inner">
     <div>
       <span class="eyebrow">Qabul ochiq · Sentabr guruhlari</span>
-      <h1>Ingliz tili, IELTS va IT — natija bilan o'lchanadigan kurslar</h1>
-      <p class="subtext">2 daqiqalik test darajangizni aniqlaydi, birinchi dars esa bepul. Sizga mos guruh va vaqtni o'zingiz tanlaysiz.</p>
+      <h1>Ingliz, rus, arab tili, matematika va maktabgacha tayyorlov — bitta markazda</h1>
+      <p class="subtext">Farzandingizga mos yo'nalish va vaqtni o'zingiz tanlaysiz, birinchi dars esa bepul.</p>
       <div class="actions">
-        <a class="btn btn-dark" href="#test">Darajani aniqlash</a>
-        <a class="btn btn-ghost" href="#kurslar">Kurslar va narxlar</a>
+        <a class="btn btn-dark" href="#yozilish">Ro'yxatdan o'tish</a>
+        <a class="btn btn-ghost" href="#kurslar">Yo'nalishlar va narxlar</a>
       </div>
       <div class="facts">
         <div class="fact"><b>1-dars</b><span>bepul sinov</span></div>
-        <div class="fact"><b>8–12</b><span>o'quvchi guruhda</span></div>
-        <div class="fact"><b>2 filial</b><span>Chilonzor, Yunusobod</span></div>
+        <div class="fact"><b>6</b><span>yo'nalish</span></div>
+        <div class="fact"><b>Fast Education</b><span>rasmiy hamkor</span></div>
       </div>
     </div>
     <div>
       <div class="hero-portrait" aria-hidden="true">
-        <svg viewBox="0 0 240 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient id="portraitGrad" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0" stop-color="#1C2C52"/>
@@ -348,20 +320,20 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
               <circle cx="1.4" cy="1.4" r="1.4" fill="rgba(255,255,255,.35)"/>
             </pattern>
           </defs>
-          <path d="M20 300c0-64 44-96 100-96s100 32 100 96z" fill="url(#portraitGrad)"/>
-          <path d="M20 300c0-64 44-96 100-96s100 32 100 96z" fill="url(#portraitDots)" opacity=".5"/>
-          <circle cx="120" cy="112" r="66" fill="url(#portraitGrad)"/>
-          <circle cx="120" cy="112" r="66" fill="url(#portraitDots)" opacity=".5"/>
+          <circle cx="100" cy="100" r="92" fill="url(#portraitGrad)"/>
+          <circle cx="100" cy="100" r="92" fill="url(#portraitDots)" opacity=".5"/>
+          <circle cx="100" cy="100" r="92" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2" stroke-dasharray="4 7"/>
+          <path d="M70 102l20 20 40-46" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
         </svg>
-        <span class="portrait-badge">9+ yil tajriba</span>
+        <span class="portrait-badge">Rasmiy hamkor</span>
       </div>
       <aside class="board" aria-label="Yaqin guruhlar">
         <span class="board-tag">Joylar cheklangan</span>
         <h3><span class="dot"></span>Eng yaqin guruhlar</h3>
-        <div class="row"><span>IELTS 6.5+ <small>· Chilonzor</small></span><b>18-sen, 18:00</b></div>
-        <div class="row"><span>General English A2 <small>· Yunusobod</small></span><b>19-sen, 09:00</b></div>
-        <div class="row"><span>Frontend (noldan) <small>· Chilonzor</small></span><b>21-sen, 15:00</b></div>
-        <div class="row"><span>Rus tili <small>· onlayn</small></span><b>22-sen, 20:00</b></div>
+        <div class="row"><span>Ingliz tili <small>· 7–10 yosh</small></span><b>18-sen, 16:00</b></div>
+        <div class="row"><span>Matematika va Mental arifmetika <small>· 6–9 yosh</small></span><b>19-sen, 10:00</b></div>
+        <div class="row"><span>Arab tili <small>· 8+ yosh</small></span><b>20-sen, 17:00</b></div>
+        <div class="row"><span>Maktabgacha tayyorlov <small>· 5–7 yosh</small></span><b>21-sen, 09:00</b></div>
         <a class="btn btn-primary" href="#yozilish">Joy band qilish</a>
       </aside>
     </div>
@@ -370,51 +342,16 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 
 <section style="padding-top:0"><div class="wrap">
   <div class="tipband">
-    <div class="tipnum">7+</div>
+    <div class="tipnum">6</div>
     <div>
-      <span class="kicker">Amaliy maslahat</span>
-      <h2 style="margin-top:10px">IELTS'dan 7+ ball olish uchun nima muhim?</h2>
+      <span class="kicker">Bitta markazda</span>
+      <h2 style="margin-top:10px">Nega bir nechta yo'nalishni bitta markazda o'rganish qulay?</h2>
       <div class="tiplist" style="margin-top:16px">
-        <div class="tipitem"><b>1</b><span>Har kuni 20 daqiqa tayyorgarliksiz gapirish mashqi — bu speaking'da erkinlikni oshiradi.</span></div>
-        <div class="tipitem"><b>2</b><span>So'zlarni mavzu bo'yicha guruhlab o'rganish va ularni yozma va og'zaki nutqda faol qo'llash.</span></div>
-        <div class="tipitem"><b>3</b><span>Vaqt chegarasida mock testlar ishlash — bu imtihon stressini kamaytiradi va tezlikni oshiradi.</span></div>
+        <div class="tipitem"><b>1</b><span>Farzandingiz uchun jadvalni moslashtirish osonlashadi — barcha darslar bitta joyda.</span></div>
+        <div class="tipitem"><b>2</b><span>Mental arifmetika diqqat va tezkor fikrlashni rivojlantiradi — bu boshqa fanlarni o'rganishga ham yordam beradi.</span></div>
+        <div class="tipitem"><b>3</b><span>Maktabgacha tayyorlov guruhlari bolani 1-sinfga bilim va ko'nikma jihatidan tayyorlaydi.</span></div>
       </div>
     </div>
-  </div>
-</div></section>
-
-<section id="test" class="quizband"><div class="wrap">
-  <div class="section-head" style="margin-bottom:28px">
-    <span class="kicker">2 daqiqa</span>
-    <h2 style="margin-top:10px">Ingliz tili darajangizni bilib oling</h2>
-    <p style="margin-top:8px">5 ta savol. Natijaga qarab sizga mos kurs va guruhni tavsiya qilamiz.</p>
-  </div>
-  <div class="quizcard">
-    <div class="qmeta">
-      <strong id="quizCounter">Savol 1 / 5</strong>
-      <div class="progress"><i id="quizProgress" style="width:0%"></i></div>
-      <p class="qhint">Javobni bilmasangiz, taxminiy variantni tanlang — test baho qo'ymaydi.</p>
-    </div>
-    <div id="quizResult" class="result quiz-hidden">
-      <span style="color:var(--muted)">Taxminiy darajangiz</span>
-      <div class="lvl" id="resultLevel"></div>
-      <p id="resultText"></p>
-      <div class="row2">
-        <a class="btn btn-dark" href="#yozilish" id="toSignupBtn">Sinov darsiga yozilish</a>
-        <button class="btn btn-ghost" type="button" id="quizRetryBtn">Qayta ishlash</button>
-      </div>
-    </div>
-    <div id="quizActive">
-      <div class="qtext" id="quizQText"></div>
-      <div class="opts" id="quizOpts"></div>
-    </div>
-  </div>
-</div></section>
-
-<section style="padding-top:0"><div class="wrap">
-  <div class="ctaband">
-    <p>Darajangizni bilib oldingiz — endi birinchi qadamni tashlang.<span>Bepul sinov darsiga joy soni cheklangan</span></p>
-    <a class="btn btn-primary" href="#yozilish">Bepul sinov darsiga yozilish</a>
   </div>
 </div></section>
 
@@ -422,41 +359,63 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   <div class="section-head" style="margin-bottom:28px">
     <span class="kicker">Kurslar</span>
     <h2 style="margin-top:10px">Kurslar va oylik narxlar</h2>
-    <p style="margin-top:8px">Narxlar aniq va shaffof — yashirin to'lovlarsiz.</p>
+    <p style="margin-top:8px">Narxlar namuna sifatida ko'rsatilgan — saytingizda o'zingizning narxlaringiz bo'ladi.</p>
   </div>
   <div class="coursegrid">
-    <article class="course featured" data-course="IELTS tayyorlov">
-      <span class="tag">Eng ko'p tanlanadi</span>
-      <h3>IELTS tayyorlov</h3>
-      <ul class="feat-list">
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>4 oy, haftasiga 3 kun</li>
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Har oy mock test</li>
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Speaking klubi</li>
-      </ul>
-      <div class="price">650 000 <small>so'm / oy</small></div>
-      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="IELTS tayyorlov">Yozilish</a>
-    </article>
-    <article class="course" data-course="General English">
+    <article class="course" data-course="Ingliz tili">
       <span class="tag">A1 → B2</span>
-      <h3>General English</h3>
+      <h3>Ingliz tili</h3>
       <ul class="feat-list">
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Har daraja 3 oy</li>
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Kitob va onlayn platforma</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Yosh guruhlariga mos dastur</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Interaktiv darsliklar</li>
         <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Ertalab va kechki guruhlar</li>
       </ul>
-      <div class="price">450 000 <small>so'm / oy</small></div>
-      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="General English">Yozilish</a>
+      <div class="price">400 000 <small>so'm / oy</small></div>
+      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Ingliz tili">Yozilish</a>
     </article>
-    <article class="course" data-course="Frontend dasturlash">
-      <span class="tag">Noldan</span>
-      <h3>Frontend dasturlash</h3>
+    <article class="course" data-course="Matematika va Mental arifmetika">
+      <span class="tag">Diqqatni rivojlantiradi</span>
+      <h3>Matematika va Mental arifmetika</h3>
       <ul class="feat-list">
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>6 oy, portfolio loyihalar</li>
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>HTML, CSS, JavaScript, React</li>
-        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Ishga joylashishda yordam</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Tezkor hisoblash ko'nikmalari</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Abakus asosidagi metodika</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Kichik guruhlarda mashq</li>
       </ul>
-      <div class="price">900 000 <small>so'm / oy</small></div>
-      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Frontend dasturlash">Yozilish</a>
+      <div class="price">350 000 <small>so'm / oy</small></div>
+      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Matematika va Mental arifmetika">Yozilish</a>
+    </article>
+    <article class="course" data-course="Arab tili">
+      <span class="tag">Noldan</span>
+      <h3>Arab tili</h3>
+      <ul class="feat-list">
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Alifbo va o'qishdan boshlab</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Amaliy so'zlashuv mashqlari</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Kichik guruh, individual e'tibor</li>
+      </ul>
+      <div class="price">350 000 <small>so'm / oy</small></div>
+      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Arab tili">Yozilish</a>
+    </article>
+    <article class="course" data-course="Maktabgacha tayyorlov">
+      <span class="tag">5–7 yosh</span>
+      <h3>Maktabgacha tayyorlov</h3>
+      <ul class="feat-list">
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Savod va sonlarga tayyorgarlik</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Ijodiy va rivojlantiruvchi mashg'ulotlar</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>1-sinfga psixologik tayyorlov</li>
+      </ul>
+      <div class="price">300 000 <small>so'm / oy</small></div>
+      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Maktabgacha tayyorlov">Yozilish</a>
+    </article>
+    <article class="course" data-course="Gimnastika">
+      <span class="tag">Jismoniy rivojlanish</span>
+      <h3>Gimnastika</h3>
+      <ul class="feat-list">
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Moslashuvchanlik va muvozanat</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Guruh mashg'ulotlari</li>
+        <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Tajribali murabbiylar</li>
+      </ul>
+      <div class="price">250 000 <small>so'm / oy</small></div>
+      <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Gimnastika">Yozilish</a>
     </article>
     <article class="course" data-course="Rus tili">
       <span class="tag">Onlayn ham</span>
@@ -466,43 +425,43 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
         <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Kichik guruh, 8 kishigacha</li>
         <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Kechki va onlayn</li>
       </ul>
-      <div class="price">400 000 <small>so'm / oy</small></div>
+      <div class="price">350 000 <small>so'm / oy</small></div>
       <a class="btn btn-dark btn-block pick-course" href="#yozilish" data-course="Rus tili">Yozilish</a>
     </article>
   </div>
 </div></section>
 
-<section id="ustozlar" style="padding-top:0"><div class="wrap">
+<section id="yonalishlar" style="padding-top:0"><div class="wrap">
   <div class="section-head" style="margin-bottom:28px">
-    <span class="kicker">Jamoa</span>
-    <h2 style="margin-top:10px">Natijaga olib boradigan ustozlar</h2>
+    <span class="kicker">Yo'nalishlar</span>
+    <h2 style="margin-top:10px">Bitta markazda 6 ta yo'nalish</h2>
   </div>
   <div class="mentor-strip">
-    <div class="mentor-card"><div class="mentor-avatar" style="background:#101A33">SA</div><b>Sardor Aliyev</b><span>IELTS bo'yicha bosh ustoz</span></div>
-    <div class="mentor-card"><div class="mentor-avatar" style="background:#C97F1E">MY</div><b>Malika Yusupova</b><span>General English</span></div>
-    <div class="mentor-card"><div class="mentor-avatar" style="background:#3E7A5D">JN</div><b>Javlon Nazarov</b><span>Frontend dasturlash</span></div>
-    <div class="mentor-card"><div class="mentor-avatar" style="background:#1C2C52">DR</div><b>Dilnoza Rashidova</b><span>Rus tili</span></div>
-    <div class="mentor-card"><div class="mentor-avatar" style="background:#C97F1E">OQ</div><b>Otabek Qodirov</b><span>Speaking klubi</span></div>
-    <div class="mentor-card"><div class="mentor-avatar" style="background:#3E7A5D">FT</div><b>Feruza Tosheva</b><span>Bolalar guruhlari</span></div>
+    <div class="mentor-card"><div class="mentor-avatar" style="background:#101A33">EN</div><b>Ingliz tili</b><span>Til kursi</span></div>
+    <div class="mentor-card"><div class="mentor-avatar" style="background:#C97F1E">MA</div><b>Matematika</b><span>Mental arifmetika</span></div>
+    <div class="mentor-card"><div class="mentor-avatar" style="background:#3E7A5D">AR</div><b>Arab tili</b><span>Til kursi</span></div>
+    <div class="mentor-card"><div class="mentor-avatar" style="background:#1C2C52">MT</div><b>Tayyorlov</b><span>Maktabgacha</span></div>
+    <div class="mentor-card"><div class="mentor-avatar" style="background:#C97F1E">GM</div><b>Gimnastika</b><span>Jismoniy rivojlanish</span></div>
+    <div class="mentor-card"><div class="mentor-avatar" style="background:#3E7A5D">RU</div><b>Rus tili</b><span>Til kursi</span></div>
   </div>
 </div></section>
 
 <section style="padding-top:0"><div class="wrap">
   <div class="section-head" style="margin-bottom:28px">
-    <span class="kicker">Natijalar</span>
-    <h2 style="margin-top:10px">O'quvchilar erishgan natijalar</h2>
+    <span class="kicker">Afzalliklar</span>
+    <h2 style="margin-top:10px">Nega aynan ILM MARKAZ?</h2>
   </div>
   <div class="resultgrid">
-    <div class="result-card"><span class="result-sample">Namuna</span><div class="result-band">8.0</div><div class="result-name">Amirbek T.</div><span class="result-course">IELTS tayyorlov</span></div>
-    <div class="result-card"><span class="result-sample">Namuna</span><div class="result-band">7.5</div><div class="result-name">Sevinch Q.</div><span class="result-course">IELTS tayyorlov</span></div>
-    <div class="result-card"><span class="result-sample">Namuna</span><div class="result-band">7.0</div><div class="result-name">Jasur M.</div><span class="result-course">IELTS tayyorlov</span></div>
-    <div class="result-card"><span class="result-sample">Namuna</span><div class="result-band">B2</div><div class="result-name">Nilufar S.</div><span class="result-course">General English</span></div>
+    <div class="result-card"><div class="result-band">01</div><div class="result-name">6 ta yo'nalish — bitta markazda</div><span class="result-course">Ingliz, rus, arab tili, matematika, mental arifmetika va maktabgacha tayyorlov.</span></div>
+    <div class="result-card"><div class="result-band">02</div><div class="result-name">Kichik guruhlar</div><span class="result-course">Har bir o'quvchiga individual e'tibor uchun kichik guruhlarda dars o'tiladi.</span></div>
+    <div class="result-card"><div class="result-band">03</div><div class="result-name">Fast Education hamkorligida</div><span class="result-course">Rasmiy hamkorlik dasturi asosidagi zamonaviy metodika va materiallar.</span></div>
+    <div class="result-card"><div class="result-band">04</div><div class="result-name">Bepul sinov darsi</div><span class="result-course">Ro'yxatdan o'ting va birinchi darsni bepul sinab ko'ring.</span></div>
   </div>
 </div></section>
 
 <section style="padding-top:0"><div class="wrap">
   <div class="ctaband">
-    <p>Ushbu natijalarga siz ham erisha olasiz.<span>Bepul sinov darsidan boshlang</span></p>
+    <p>Farzandingiz uchun eng mos yo'nalishni tanlang.<span>Bepul sinov darsidan boshlang</span></p>
     <a class="btn btn-light" href="#yozilish">Hoziroq boshlash</a>
   </div>
 </div></section>
@@ -512,18 +471,18 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   <div class="steps">
     <div class="step"><span class="step-num">1</span><h3>Test yoki qo'ng'iroq</h3><p>Onlayn testni ishlaysiz yoki administratorimiz 10 daqiqada qo'ng'iroq qiladi.</p></div>
     <div class="step"><span class="step-num">2</span><h3>Bepul sinov darsi</h3><p>Guruhga kirib, o'qituvchi va uslubni ko'rasiz. Hech qanday to'lovsiz.</p></div>
-    <div class="step"><span class="step-num">3</span><h3>Guruhni tanlaysiz</h3><p>Qulay filial va vaqtni tanlab, shartnomani onlayn yoki markazda rasmiylashtirasiz.</p></div>
+    <div class="step"><span class="step-num">3</span><h3>Guruhni tanlaysiz</h3><p>Qulay kun va vaqtni tanlab, shartnomani onlayn yoki markazda rasmiylashtirasiz.</p></div>
   </div>
 </div></section>
 
 <section id="jadval" style="padding-top:0"><div class="wrap">
   <div class="section-head" style="margin-bottom:24px"><span class="kicker">Jadval</span><h2 style="margin-top:10px">Yangi guruhlar jadvali</h2></div>
   <div class="schedwrap">
-    <div class="sched-head"><span>Kurs</span><span>Filial</span><span>Kunlar</span><span>Vaqt</span><span>Boshlanishi</span><span>Joylar</span></div>
-    <div class="sched-row"><span style="font-weight:700">IELTS 6.5+</span><span>Chilonzor</span><span>Du, Chor, Ju</span><span class="num">18:00–19:30</span><span class="num">18.09</span><span class="seat low">2 ta qoldi</span></div>
-    <div class="sched-row"><span style="font-weight:700">General English A2</span><span>Yunusobod</span><span>Se, Pay, Sha</span><span class="num">09:00–10:30</span><span class="num">19.09</span><span class="seat">6 ta bor</span></div>
-    <div class="sched-row"><span style="font-weight:700">Frontend (noldan)</span><span>Chilonzor</span><span>Du, Chor, Ju</span><span class="num">15:00–17:00</span><span class="num">21.09</span><span class="seat">5 ta bor</span></div>
-    <div class="sched-row"><span style="font-weight:700">Rus tili</span><span>Onlayn</span><span>Se, Pay</span><span class="num">20:00–21:00</span><span class="num">22.09</span><span class="seat low">3 ta qoldi</span></div>
+    <div class="sched-head"><span>Yo'nalish</span><span>Yosh guruhi</span><span>Kunlar</span><span>Vaqt</span><span>Boshlanishi</span><span>Joylar</span></div>
+    <div class="sched-row"><span style="font-weight:700">Ingliz tili</span><span>7–10 yosh</span><span>Du, Chor, Ju</span><span class="num">16:00–17:00</span><span class="num">18.09</span><span class="seat low">4 ta qoldi</span></div>
+    <div class="sched-row"><span style="font-weight:700">Matematika va Mental arifmetika</span><span>6–9 yosh</span><span>Se, Pay, Sha</span><span class="num">10:00–11:00</span><span class="num">19.09</span><span class="seat">6 ta bor</span></div>
+    <div class="sched-row"><span style="font-weight:700">Arab tili</span><span>8+ yosh</span><span>Du, Chor, Ju</span><span class="num">17:00–18:00</span><span class="num">20.09</span><span class="seat">5 ta bor</span></div>
+    <div class="sched-row"><span style="font-weight:700">Maktabgacha tayyorlov</span><span>5–7 yosh</span><span>Se, Pay</span><span class="num">09:00–10:00</span><span class="num">21.09</span><span class="seat low">3 ta qoldi</span></div>
   </div>
 </div></section>
 
@@ -531,9 +490,9 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
   <div class="section-head" style="margin-bottom:24px"><span class="kicker">Savollar</span><h2 style="margin-top:10px">Ko'p beriladigan savollar</h2></div>
   <div class="faq">
     <details><summary>Sinov darsi haqiqatan bepulmi?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Ha. Birinchi darsga to'lovsiz kelasiz, yoqsa guruhda qolasiz.</p></details>
-    <details><summary>Darsni qoldirsam nima bo'ladi?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Qoldirilgan mavzu bo'yicha o'qituvchi material yuboradi, oyiga 2 marta qo'shimcha darsga kelish mumkin.</p></details>
+    <details><summary>Darsni qoldirsam nima bo'ladi?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Qoldirilgan mavzu bo'yicha o'qituvchi material yuboradi, qo'shimcha darsga kelish imkoniyati bor.</p></details>
     <details><summary>To'lovni qanday qilaman?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Click, Payme, Uzum yoki markazda naqd. Oyma-oy to'lanadi.</p></details>
-    <details><summary>Farzandim uchun ham kurs bormi?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>10 yoshdan kichik guruhlar bor — administrator yosh va darajaga qarab tavsiya beradi.</p></details>
+    <details><summary>Necha yoshdan qabul qilinadi?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></summary><p>Maktabgacha tayyorlov va rivojlantiruvchi guruhlar turli yosh toifalari uchun mavjud — administrator farzandingiz yoshiga mos guruhni tavsiya qiladi.</p></details>
   </div>
 </div></section>
 
@@ -545,21 +504,20 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
       <div class="trust">
         <div class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Hech qanday majburiyatsiz, birinchi dars bepul</div>
         <div class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Ish vaqti: Du–Sha, 09:00–20:00</div>
-        <div class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>2 filial: Chilonzor va Yunusobod</div>
+        <div class="trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Bitta qulay manzilda barcha yo'nalishlar</div>
       </div>
     </div>
     <form class="formcard" id="leadForm" novalidate>
-      <span class="levelbadge quiz-hidden" id="levelBadge"></span>
       <div class="field"><label for="fName">Ismingiz</label><input id="fName" name="name" placeholder="Masalan, Dilnoza" autocomplete="name"></div>
       <div class="field"><label for="fPhone">Telefon raqam</label><input id="fPhone" name="phone" type="tel" placeholder="+998 90 123 45 67" autocomplete="tel"></div>
-      <div class="field"><label for="fCourse">Kurs</label>
+      <div class="field"><label for="fCourse">Yo'nalish</label>
         <select id="fCourse" name="course">
-          <option>IELTS tayyorlov</option><option>General English</option><option>Frontend dasturlash</option><option>Rus tili</option><option>Hali bilmayman — maslahat kerak</option>
+          <option>Ingliz tili</option><option>Matematika va Mental arifmetika</option><option>Arab tili</option><option>Maktabgacha tayyorlov</option><option>Gimnastika</option><option>Rus tili</option><option>Hali bilmayman — maslahat kerak</option>
         </select>
       </div>
       <div class="field"><label for="fTime">Qulay vaqt</label>
         <select id="fTime" name="time">
-          <option>Ertalab</option><option>Tushdan keyin</option><option>Kechqurun</option><option>Onlayn</option>
+          <option>Ertalab</option><option>Tushdan keyin</option><option>Kechqurun</option>
         </select>
       </div>
       <button class="btn btn-primary btn-block" type="submit" id="submitBtn">Arizani yuborish</button>
@@ -570,13 +528,13 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 </main>
 
 <footer><div class="wrap">
-  <span>© 2026 Ilm Yo'li. Barcha huquqlar himoyalangan.</span>
-  <span>Chilonzor · Yunusobod · <a href="tel:+998771771319">+998 77 177 13 19</a></span>
+  <span>© 2026 ILM MARKAZ. Fast Education hamkorligida. Barcha huquqlar himoyalangan.</span>
+  <span>Sayt va Telegram-bot: <a href="tel:+998774493636">+998 77 449 36 36</a></span>
 </div></footer>
 
 <div class="chat-panel" id="chatPanel" role="dialog" aria-label="Onlayn yordamchi">
   <header>
-    <div><strong>Ilm Yo'li yordamchisi</strong><small>Odatda darhol javob beradi</small></div>
+    <div><strong>ILM MARKAZ yordamchisi</strong><small>Odatda darhol javob beradi</small></div>
     <button type="button" id="chatCloseBtn" aria-label="Yopish"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
   </header>
   <div class="chat-log" id="chatLog"></div>
@@ -600,79 +558,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
     });
   });
 
-  // Quiz
-  var QUESTIONS = [
-    { q: "She ___ to school every day.", opts: ["go","goes","going","gone"], correct: 1 },
-    { q: "I have lived here ___ 2019.", opts: ["for","since","from","at"], correct: 1 },
-    { q: "If I ___ more time, I would travel.", opts: ["have","had","will have","has"], correct: 1 },
-    { q: "Choose the synonym of “reliable”:", opts: ["dependable","noisy","expensive","rapid"], correct: 0 },
-    { q: "By the time we arrived, the film ___.", opts: ["started","has started","had started","starts"], correct: 2 }
-  ];
-  var quizStep = 0, quizScore = 0;
-  var quizCounter = document.getElementById('quizCounter');
-  var quizProgress = document.getElementById('quizProgress');
-  var quizQText = document.getElementById('quizQText');
-  var quizOptsEl = document.getElementById('quizOpts');
-  var quizActiveEl = document.getElementById('quizActive');
-  var quizResultEl = document.getElementById('quizResult');
-  var resultLevelEl = document.getElementById('resultLevel');
-  var resultTextEl = document.getElementById('resultText');
-
-  function resultFor(score, total){
-    if (score <= 1) return { level: "A1–A2", course: "General English" };
-    if (score <= 3) return { level: "B1", course: "General English B1 yoki IELTS asoslari", value: "General English" };
-    return { level: "B2+", course: "IELTS tayyorlov" };
-  }
-
-  function renderQuiz(){
-    var finished = quizStep >= QUESTIONS.length;
-    quizProgress.style.width = Math.round((Math.min(quizStep, QUESTIONS.length) / QUESTIONS.length) * 100) + '%';
-    if (finished){
-      quizCounter.textContent = 'Natija';
-      quizActiveEl.classList.add('quiz-hidden');
-      quizResultEl.classList.remove('quiz-hidden');
-      var r = resultFor(quizScore, QUESTIONS.length);
-      resultLevelEl.textContent = r.level;
-      resultTextEl.innerHTML = quizScore + ' / ' + QUESTIONS.length + ' to’g’ri javob. Sizga tavsiya: <b>' + r.course + '</b>. Aniq darajani sinov darsida o’qituvchi belgilaydi.';
-      window._quizResult = r;
-      return;
-    }
-    quizCounter.textContent = 'Savol ' + (quizStep + 1) + ' / ' + QUESTIONS.length;
-    quizActiveEl.classList.remove('quiz-hidden');
-    quizResultEl.classList.add('quiz-hidden');
-    var q = QUESTIONS[quizStep];
-    quizQText.textContent = q.q;
-    quizOptsEl.innerHTML = '';
-    q.opts.forEach(function(label, i){
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'opt';
-      btn.textContent = label;
-      btn.addEventListener('click', function(){
-        if (i === q.correct) quizScore++;
-        quizStep++;
-        renderQuiz();
-      });
-      quizOptsEl.appendChild(btn);
-    });
-  }
-  document.getElementById('quizRetryBtn').addEventListener('click', function(){
-    quizStep = 0; quizScore = 0; renderQuiz();
-  });
-  document.getElementById('toSignupBtn').addEventListener('click', function(){
-    var r = window._quizResult;
-    if (!r) return;
-    var courseSelect = document.getElementById('fCourse');
-    if (r.course === 'IELTS tayyorlov' || r.course === 'General English'){
-      courseSelect.value = r.course;
-    }
-    var badge = document.getElementById('levelBadge');
-    badge.textContent = 'Test natijasi: ' + r.level;
-    badge.classList.remove('quiz-hidden');
-  });
-  renderQuiz();
-
-  // Course pick buttons scroll + preselect
+  // Course pick buttons preselect
   document.querySelectorAll('.pick-course').forEach(function(el){
     el.addEventListener('click', function(){
       document.getElementById('fCourse').value = el.getAttribute('data-course');
@@ -708,21 +594,21 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between}
 
   // Chat widget
   var ANSWERS = {
-    narx: "Oylik narxlar: IELTS — 650 000, General English — 450 000, Frontend — 900 000, Rus tili — 400 000 so‘m. Birinchi dars bepul.",
-    vaqt: "Ertalabki (09:00), kunduzgi (15:00) va kechki (18:00, 20:00) guruhlar bor. Rus tili onlayn ham o‘tadi.",
-    manzil: "Filiallar: Chilonzor (Bunyodkor ko‘chasi yaqinida) va Yunusobod (4-kvartal). Ish vaqti Du–Sha, 09:00–20:00.",
-    ielts: "IELTS kursi 4 oy, haftasiga 3 kun. Har oy mock test va speaking klubi bor. Boshlash uchun kamida B1 daraja kerak.",
-    bola: "10 yoshdan boshlab bolalar guruhlari bor. Yosh va darajaga qarab administrator guruh tavsiya qiladi."
+    narx: "Har bir yo‘nalish bo‘yicha oylik narxlar saytda ko‘rsatilgan (namuna narxlar — markazingiz uchun moslashtiriladi). Birinchi dars bepul.",
+    vaqt: "Ertalabki, kunduzgi va kechki guruhlar mavjud — aniq jadvalni saytdagi 'Jadval' bo‘limidan ko‘rishingiz mumkin.",
+    manzil: "Bog‘lanish uchun: +998 77 449 36 36. Aniq manzilni administratorimiz aytib beradi.",
+    yonalish: "6 ta yo‘nalish bor: Ingliz tili, Matematika va Mental arifmetika, Arab tili, Maktabgacha tayyorlov, Gimnastika va Rus tili.",
+    bola: "Turli yosh guruhlari uchun dasturlar mavjud — administrator farzandingiz yoshiga mos guruhni tavsiya qiladi."
   };
   var QUICK_DATA = [
     { key: "narx", label: "Narxlar" },
     { key: "vaqt", label: "Guruh vaqtlari" },
     { key: "manzil", label: "Manzil" },
-    { key: "ielts", label: "IELTS" },
+    { key: "yonalish", label: "Yo'nalishlar" },
     { key: "bola", label: "Bolalar uchun" },
     { key: "yoz", label: "Sinov darsiga yozilish" }
   ];
-  var GREETING = "Assalomu alaykum! Ilm Yo‘li yordamchisiman. Kurslar, narxlar yoki sinov darsi haqida so‘rang 👇";
+  var GREETING = "Assalomu alaykum! ILM MARKAZ yordamchisiman. Yo‘nalishlar, narxlar yoki sinov darsi haqida so‘rang 👇";
   var chatLogEl = document.getElementById('chatLog');
   var chatQuickEl = document.getElementById('chatQuick');
   var chatPanel = document.getElementById('chatPanel');
